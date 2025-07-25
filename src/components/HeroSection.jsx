@@ -3,7 +3,7 @@ import PromptForm from "./PromptForm";
 function HeroSection({ prompt, setPrompt, onSubmit }) {
   return (
     <section className="text-center mb-8">
-      <h1 className="text-4xl font-bold mb-6 bg-gradient-to-r from-white to-dark-gray text-transparent bg-clip-text">
+      <h1 className="text-5xl font-bold mb-6 mt-28 bg-gradient-to-r from-white to-dark-gray text-transparent bg-clip-text">
         Describe your website, and we'll generate it!
       </h1>
       <h2 className="text-2xl font-light text-gray-300 mb-10">

@@ -9,6 +9,12 @@ export default {
       colors: {
         'dark-gray': '#161816',
       },
+      borderWidth: {
+        '0.5': '0.5px',
+      }
+    },
+    fontFamily: {
+      sans: ['"Poppins"', 'sans-serif'],
     },
   },
   plugins: [],

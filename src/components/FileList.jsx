@@ -4,7 +4,7 @@ function FileList({ files, selectedFile, onSelect }) {
   return (
     <div className="w-1/3">
       <h2 className="font-semibold mb-2 text-gray-300">Generated Files:</h2>
-      <ul className="bg-[#1E2024] rounded-lg shadow divide-y divide-zinc-700">
+      <ul className="bg-[#1E2024] rounded-md shadow divide-y divide-zinc-700">
         {files.map((file, index) => (
           <li
             key={index}
